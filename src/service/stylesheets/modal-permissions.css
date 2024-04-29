@@ -1,0 +1,12 @@
+#modal-permissions .modal-header {
+    display: flex;
+    align-items: center;
+}
+
+#modal-permissions .modal-footer {
+    border: none;
+}
+
+#modal-permissions .modal-title {
+    font-size: 12px;
+}

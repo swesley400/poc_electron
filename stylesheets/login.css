@@ -1,0 +1,139 @@
+#container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer *, header * {
+  color: #FFF!important;
+  text-shadow: 1px 1px 5px #000;
+}
+
+footer button:hover {
+  filter: brightness(500%);
+}
+
+
+header img {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  font-size: medium;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #0270d1;
+  /* border-color: lightgray; */
+  box-shadow: gray;
+  border-radius: 18px;
+  font-size: medium;
+}
+
+.form-box {
+  /* padding-top: 150px; */
+  margin: 0px auto;
+  width: 450px;
+  z-index: 988;
+}
+
+.form-signin {
+  background-color: #ffffff;
+  padding: 20px 40px 40px 40px;
+  /* box-shadow: 5px 10px 10px #333; */
+  border-radius: 10px;
+}
+
+.form-signin .form-signin-heading {
+  margin-bottom: 30px;
+  text-align: center;
+  max-height: 120px;
+}
+
+.form-signin .form-signin-heading img {
+  max-height: 90px;
+  max-width: 100%;
+}
+
+.form-signin .input-group {
+  margin-bottom: 10px;
+}
+
+.form-signin .input-group .input-group-text {
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* Modal Station */
+
+.modal-station {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+/* .form-signin .input-group .form-control {
+  border-radius: 0px 15px 15px 0px;
+  height: auto;
+  padding: 5px;
+  font-size: 15px;
+  color: #222;
+} */
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin .form-check .custom-control {
+  margin-top: 7px;
+}
+
+.form-signin .form-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-signin button {
+  cursor: pointer;
+}
+
+.show-modal-restore-form {
+  width: 450px;
+  margin: 0px auto;
+  padding: 103px 40px 103px 40px;
+  z-index: 9999;
+}
+
+/*divModalLicenseInfo*/
+
+#divModalLicenseInfo {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  align-content: center;
+  z-index: 99999;
+}
+
+#divModalLicenseInfo .card {
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

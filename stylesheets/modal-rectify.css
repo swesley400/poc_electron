@@ -1,0 +1,12 @@
+#modal-rectify .modal-header {
+    display: flex;
+    align-items: center;
+}
+
+#modal-rectify .modal-footer {
+    border: none;
+}
+
+#modal-rectify .modal-title {
+    font-size: 12px;
+}

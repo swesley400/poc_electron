@@ -1,0 +1,67 @@
+.dropbtn {
+  background-color: #fff;
+  color: #495057;
+  padding: 3px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #ced4da;
+}
+
+#inputSearch {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 2 50 50' stroke='currentColor' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' /%3E%3C/svg%3E");
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  padding: 14px 6.2rem 7px 45px;
+  border: none;
+  position: absolute;
+  height: auto !important;
+  width: auto;
+}
+
+#inputSearch:focus {
+  outline: 3px solid #ddd;
+}
+
+.dropdown-search {
+  width: 100%;
+  max-width: 275px;
+}
+
+.dropdown-content-search {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 285px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  min-height: 40px;
+  max-height: 300px;
+}
+
+.dropdown-content-search a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: default;
+}
+.item-space {
+  margin-top: 35px;
+}
+
+.dropdown-content-search a:hover {
+  background-color: #007bff;
+  color: #fff !important;
+  font-weight: 400;
+}
+.show {
+  display: block;
+}
